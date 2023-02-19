@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  max-width: 1200px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 46, 61);
+
+}
+
+.inputColor  {
+  min-width: 200px;
+  padding: 1rem;
+  outline: none;
+  border: 0;
+  font-size: 1rem;
+}
+
+.outputRGB {
+  background-color: rgb(29, 30, 49);
+  min-width: 200px;
+  min-height: 1rem;
+  padding: 1rem;
+  outline: none;
+  color: #fff;
+}

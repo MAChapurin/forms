@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 50px 100px;
+}
+
+.form {
+  
+}
+
+.form_label_date {
+  margin-right: 55px;
+}
+
+.form_label_date, .form_label_km {
+  margin-bottom: 30px;
+}
+
+.inputGroup {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_title_wrap {
+  margin-bottom: 20px;
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+}
+
+.h4 {
+  font-weight: 400;
+}
+
+#date, #km, .form_btn {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+}
+
+.form_btn:hover, #date:hover, #km:hover {
+  transform: scale(1.02);
+}
+
+.ul {
+  max-width: 600px;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  list-style-type: none;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_wrap button {
+  background-color: transparent;
+  border: 0;
+  transition: transform 0.3s ease;
+}
+
+.button_wrap button:hover {
+  transform: scale(1.1);
+}
